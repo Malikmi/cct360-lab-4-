@@ -1,0 +1,49 @@
+<DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dont annoy the Cat </title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <main>
+        <h1>Dont annoy the Cat</h1>
+        <p class= "subtitle">Meet Mochi. Get <strong> 10 purrs </strong> before Mochi scratches you <strong> 3 times </strong></p>
+
+        <div id="cat">🐱</div>
+
+        <p id= "message" aria-live="polite">Okay, you can pet me.</p>
+
+      <div class="meter">
+            <span>Annoyance</span>
+            <div class="bar"><div id="moodFill"></div></div>
+        </div>
+
+        <p class="stats">
+            💜 Purrs: <span id="purrs">0</span> 
+            🩸 Scratches: <span id="scratches">0</span> 
+            🐟 Treats left: <span id="treats">3</span>
+        </p>
+
+        <div class="buttons">
+            <button id="petButton">✋ Pet the Cat</button>
+            <button id="treatButton">🐟 Give a Treat</button>
+            <button id="resetButton">🔄 Reset</button>
+        </div>
+    </main>
+
+    <section class="tips">
+        <h2>Cat Rules</h2>
+        <ul>
+            <li>A few pets make Mochi purr.</li>
+            <li>Too many pets in a row make Mochi annoyed, then angry.</li>
+            <li>Petting an angry cat gets you scratched.</li>
+            <li>Treats calm Mochi down, but you only have 3.</li>
+        </ul>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
